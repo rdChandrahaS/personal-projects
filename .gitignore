@@ -1,0 +1,115 @@
+# ==============================
+# Secrets and Environment
+# ==============================
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+secrets/
+credentials/
+token.json
+*.session
+*.session-journal
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# ==============================
+# Node.js / JavaScript
+# ==============================
+node_modules/
+.npm/
+.npmrc.local
+dist/
+.next/
+.nuxt/
+.svelte-kit/
+coverage/
+*.tsbuildinfo
+
+# ==============================
+# Java / Maven / Gradle
+# ==============================
+target/
+build/
+.gradle/
+out/
+*.class
+*.jar
+*.war
+*.ear
+
+# ==============================
+# IDEs and Editors
+# ==============================
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Logs and Temporary Files
+# ==============================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.old
+
+# ==============================
+# Databases and Local Storage
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+data/
+storage/
+
+# ==============================
+# PDF / Media / Generated Files
+# ==============================
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+*.mkv
+*.zip
+
+# ==============================
+# Local Input / Output and Testing
+# ==============================
+input.txt
+output.txt
+test-output/
